@@ -9,13 +9,13 @@
 
   
     <changeSet id="10" author="Gaurav">
-        <createTable tableName="demoJenkinsMavenGitHub">
-            <column name="id" type="int" autoIncrement="true">
-                <constraints primaryKey="true" nullable="false"/>
-            </column>
-            <column name="TestName" type="varchar(50)"/>
-           
-        </createTable>
+        <sqlFile dbms="oracle"
+            encoding="utf8"
+            endDelimiter="\nGO"
+            path="demo.sql"
+            relativeToChangelogFile="true"
+            splitStatements="true"
+            stripComments="true"/>
     </changeSet>
 
     
