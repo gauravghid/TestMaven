@@ -11,7 +11,7 @@
         <!--<liquibase.propertyFileWillOverride>true</liquibase.propertyFileWillOverride>-->
         <!--<liquibase.propertyFile>liquibase.properties</liquibase.propertyFile>-->
         <liquibase.driver>oracle.jdbc.OracleDriver</liquibase.driver>
-        <liquibase.url>jdbc:oracle:thin:@localhost:49161/xe</liquibase.url>
+        <liquibase.url>jdbc:oracle:thin:@localhost:49161:wnameless/oracle-xe-11g</liquibase.url>
         <liquibase.username>system</liquibase.username>
         <liquibase.password>oracle</liquibase.password>
         <liquibase.dbms>oracle</liquibase.dbms>
@@ -45,7 +45,7 @@
                         <version>3.5.3</version>
 						<configuration>
 							<driver>oracle.jdbc.OracleDriver</driver>
-							<url>jdbc:oracle:thin:@localhost:49161/xe</url>
+							<url>jdbc:oracle:thin:@localhost:49161:wnameless/oracle-xe-11g</url>
 							<username>system</username>
 							<password>oracle</password>
 							<changeLogFile>Changelogs/master_changelog.xml</changeLogFile>
