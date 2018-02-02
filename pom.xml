@@ -21,12 +21,12 @@
     <build />
     <!-- Common dependancies -->
     <dependencies>
-	<!-- https://mvnrepository.com/artifact/oracle/ojdbc6 -->
+	<!-- https://mvnrepository.com/artifact/oracle/ojdbc6 
 		<dependency>
 			<groupId>oracle</groupId>
 			<artifactId>ojdbc5</artifactId>
 			<version>11.2.0.2.0</version>
-		</dependency>  
+		</dependency>  -->
         <dependency>
             <groupId>org.liquibase</groupId>
             <artifactId>liquibase-core</artifactId>
